@@ -1,12 +1,12 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
 
 * {
-  margin: 0;
-  padding: 0;
+	margin: 0;
+	padding: 0;
 }
 body {
-  font-family: "Open Sans", sans-serif;
-  background-color: #fff;
+	font-family: "Open Sans", sans-serif;
+	background-color: #fff;
 }
 
 /* Typography */
@@ -14,234 +14,234 @@ h1,
 h2,
 h3,
 p {
-  margin-bottom: 20px;
+	margin-bottom: 20px;
 }
 h1 {
-  text-transform: uppercase;
-  font-size: 40px;
-  line-height: 80px;
+	text-transform: uppercase;
+	font-size: 40px;
+	line-height: 80px;
 
-  -webkit-transition: all 0.3s ease;
-  transition: all 0.3s ease;
+	-webkit-transition: all 0.3s ease;
+	transition: all 0.3s ease;
 }
 h1:hover {
-  transform: translateY(-8px);
-  text-shadow: 0 8px 10px grey;
+	transform: translateY(-8px);
+	text-shadow: 0 8px 10px grey;
 }
 
 h2 {
-  font-size: 35px;
-  text-transform: uppercase;
+	font-size: 35px;
+	text-transform: uppercase;
 
-  -webkit-transition: all 0.3s ease;
-  transition: all 0.3s ease;
+	-webkit-transition: all 0.3s ease;
+	transition: all 0.3s ease;
 }
 h2:hover {
-  transform: rotate(5deg);
-  text-shadow: 0 8px 10px grey;
+	transform: rotate(5deg);
+	text-shadow: 0 8px 10px grey;
 }
 
 p {
-  text-align: justify;
-  color: dimgray;
+	text-align: justify;
+	color: dimgray;
 }
 .btn {
-  text-decoration: none;
-  color: #fff;
-  background: linear-gradient(to right, #ffa07a, #ff6347);
-  text-transform: uppercase;
-  padding: 15px 30px;
-  border-radius: 5px;
-  font-weight: 700;
-  display: inline-block;
-  margin-top: 10px;
+	text-decoration: none;
+	color: #fff;
+	background: linear-gradient(to right, #ffa07a, #ff6347);
+	text-transform: uppercase;
+	padding: 15px 30px;
+	border-radius: 5px;
+	font-weight: 700;
+	display: inline-block;
+	margin-top: 10px;
 
-  -webkit-transition: all 0.3s ease;
-  transition: all 0.3s ease;
+	-webkit-transition: all 0.3s ease;
+	transition: all 0.3s ease;
 }
 .btn:hover {
-  background: linear-gradient(to left, #ffa07a, #ff6347);
-  transform: translateY(-5px);
-  box-shadow: 0 5px 10px 5px #ffa07a;
+	background: linear-gradient(to left, #ffa07a, #ff6347);
+	transform: translateY(-5px);
+	box-shadow: 0 5px 10px 5px #ffa07a;
 }
 
 .colorOrange {
-  color: orange;
+	color: orange;
 }
 
 .half img {
-  width: 100%;
+	width: 100%;
 }
 
 /* Sections */
 section {
-  height: 100vh;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-gap: 75px;
-  align-items: center;
-  padding: 0 75px;
+	height: 100vh;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 75px;
+	align-items: center;
+	padding: 0 75px;
 }
 .welcome {
-  background: url("img/top-banner.png") no-repeat;
+	background: url("img/top-banner.png") no-repeat;
 }
 .dream {
-  background: url("img/dream-bg.png") no-repeat center right;
+	background: url("img/dream-bg.png") no-repeat center right;
 }
 .experience {
-  background: url("img/exp-bg.png") no-repeat center left;
-  position: relative;
+	background: url("img/exp-bg.png") no-repeat center left;
+	position: relative;
 }
 
 /* Other CSS */
 .experience > h2 {
-  position: absolute;
-  top: 6%;
-  left: 0;
+	position: absolute;
+	top: 6%;
+	left: 0;
 }
 .experience .half {
-  background-color: #fff;
-  box-shadow: 5px 7px 40px grey;
-  height: 300px;
-  padding: 20px;
-  border-left: 7px solid;
-  border-image-slice: 1;
+	background-color: #fff;
+	box-shadow: 5px 7px 40px grey;
+	height: 300px;
+	padding: 20px;
+	border-left: 7px solid;
+	border-image-slice: 1;
 }
 .fullStack {
-  border-image: linear-gradient(180deg, #ffa07a, #ff6347);
+	border-image: linear-gradient(180deg, #ffa07a, #ff6347);
 }
 .babyDeveloper {
-  border-image: linear-gradient(180deg, #0000ff, #00ffff);
+	border-image: linear-gradient(180deg, #0000ff, #00ffff);
 }
 
 /* Footer */
 footer p {
-  text-align: center;
+	text-align: center;
 }
 
 footer a {
-  text-decoration: none;
-  color: orange;
+	text-decoration: none;
+	color: orange;
 }
 
 /* Responsive */
 /*Large Layout: 992px.*/
 @media only screen and (max-width: 1199px) {
-  h1 {
-    font-size: 30px;
-    line-height: 60px;
-  }
-  h2 {
-    font-size: 20px;
-  }
-  h3 {
-    font-size: 17px;
-  }
-  p {
-    font-size: 15px;
-  }
-  .btn {
-    font-size: 14px;
-  }
+	h1 {
+		font-size: 30px;
+		line-height: 60px;
+	}
+	h2 {
+		font-size: 20px;
+	}
+	h3 {
+		font-size: 17px;
+	}
+	p {
+		font-size: 15px;
+	}
+	.btn {
+		font-size: 14px;
+	}
 
-  section {
-    grid-gap: 55px;
-    padding: 0 55px;
-  }
+	section {
+		grid-gap: 55px;
+		padding: 0 55px;
+	}
 }
 
 /*Tablet Layout: 768px.*/
 @media only screen and (max-width: 991px) {
-  section {
-    grid-gap: 35px;
-    padding: 0 35px;
-  }
-  .welcome {
-    grid-template-columns: 1fr 0.7fr;
-  }
-  .dream {
-    grid-template-columns: 0.7fr 1fr;
-  }
+	section {
+		grid-gap: 35px;
+		padding: 0 35px;
+	}
+	.welcome {
+		grid-template-columns: 1fr 0.7fr;
+	}
+	.dream {
+		grid-template-columns: 0.7fr 1fr;
+	}
 
-  .experience h3 {
-    font-size: 15px;
-  }
-  .experience .half {
-    padding: 20px 15px;
-  }
+	.experience h3 {
+		font-size: 15px;
+	}
+	.experience .half {
+		padding: 20px 15px;
+	}
 }
 
 /*Wide Mobile Layout: ≥576px.*/
 @media only screen and (max-width: 767px) {
-  .welcome,
-  .dream,
-  .experience {
-    grid-template-columns: 1fr;
-    height: auto;
-    padding: 50px 35px;
-    grid-gap: 55px;
-  }
-  .dream {
-    background: url("img/dream-bg.png") no-repeat bottom right;
-  }
-  .experience {
-    margin-top: 50px;
-  }
+	.welcome,
+	.dream,
+	.experience {
+		grid-template-columns: 1fr;
+		height: auto;
+		padding: 50px 35px;
+		grid-gap: 55px;
+	}
+	.dream {
+		background: url("img/dream-bg.png") no-repeat bottom right;
+	}
+	.experience {
+		margin-top: 50px;
+	}
 
-  .experience h3 {
-    font-size: 16px;
-  }
-  .experience > h2 {
-    top: 0;
-  }
+	.experience h3 {
+		font-size: 16px;
+	}
+	.experience > h2 {
+		top: 0;
+	}
 }
 
 /*Device-pixel-ratio of 2+*/
 @media only screen and (-webkit-min-device-pixel-ratio: 2),
-  only screen and (min-device-pixel-ratio: 2) {
-  .welcome,
-  .dream,
-  .experience {
-    grid-template-columns: 1fr;
-    height: auto;
-    padding: 50px 35px;
-    grid-gap: 55px;
-  }
-  .dream {
-    background: url("img/dream-bg.png") no-repeat bottom right;
-  }
-  .experience {
-    margin-top: 50px;
-  }
+	only screen and (min-device-pixel-ratio: 2) {
+	.welcome,
+	.dream,
+	.experience {
+		grid-template-columns: 1fr;
+		height: auto;
+		padding: 50px 35px;
+		grid-gap: 55px;
+	}
+	.dream {
+		background: url("img/dream-bg.png") no-repeat bottom right;
+	}
+	.experience {
+		margin-top: 50px;
+	}
 
-  .experience h3 {
-    font-size: 16px;
-  }
-  .experience > h2 {
-    top: 0;
-  }
+	.experience h3 {
+		font-size: 16px;
+	}
+	.experience > h2 {
+		top: 0;
+	}
 }
 
 /*Small Mobile Layout: <576px.*/
 @media only screen and (max-width: 576px) {
-  h1 {
-    font-size: 25px;
-    line-height: 50px;
-  }
-  h2 {
-    font-size: 18px;
-  }
-  p {
-    font-size: 14px;
-  }
-  .btn {
-    font-size: 13px;
-  }
+	h1 {
+		font-size: 25px;
+		line-height: 50px;
+	}
+	h2 {
+		font-size: 18px;
+	}
+	p {
+		font-size: 14px;
+	}
+	.btn {
+		font-size: 13px;
+	}
 
-  .welcome,
-  .dream,
-  .experience {
-    padding-left: 15px;
-    padding-right: 15px;
-  }
+	.welcome,
+	.dream,
+	.experience {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
 }
