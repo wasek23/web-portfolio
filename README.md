@@ -1,5 +1,5 @@
 # WEB PORTFOLIO
-#### Web Portfolio is a simple portfolio Web Template.
+#### Web Portfolio is a Simple Portfolio Web Template.
 
 <br />
 
